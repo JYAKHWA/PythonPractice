@@ -1,0 +1,12 @@
+A complete Azure Data Engineering and Analytcis Project for 2021 Olympic Data.
+
+STEPS TAKEN.
+A. DATA ENGINEERING
+B. DATA ANALYTICS
+
+A basic workflow is given below.
+First (Source)
+1. Data Source (Github Raw Data HTTP)
+Second (Extract)
+2. Ingest the raw data to Azure Data Factory creating pipeline. Then,storing to DataLake, in a container.
+3. 
