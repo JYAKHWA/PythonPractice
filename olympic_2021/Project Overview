@@ -1,12 +1,19 @@
 A complete Azure Data Engineering and Analytcis Project for 2021 Olympic Data.
 
 STEPS TAKEN.
-A. DATA ENGINEERING
-B. DATA ANALYTICS
+A. DATA ENGINEERING (Azure databricks, datafactory, datalake)
+B. DATA ANALYTICS (Azure Synapse)
 
 A basic workflow is given below.
+
 First (Source)
 1. Data Source (Github Raw Data HTTP)
+
 Second (Extract)
 2. Ingest the raw data to Azure Data Factory creating pipeline. Then,storing to DataLake, in a container.
-3. 
+
+Third (Transform)
+1. Use Data Bricks where data transformation and cleaning is done in Notebook using PySpark.
+
+Fourth (Load)
+1. the transformed data is loaded back to the gen2 data lake. This data is now ready for further analysis.
