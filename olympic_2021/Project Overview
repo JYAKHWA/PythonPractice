@@ -4,7 +4,7 @@ STEPS TAKEN.
 A. DATA ENGINEERING (Azure databricks, datafactory, datalake)
 B. DATA ANALYTICS (Azure Synapse)
 
-A basic workflow is given below.
+A basic workflow is given below. (DATA ENGINEERING)
 
 First (Source)
 1. Data Source (Github Raw Data HTTP)
@@ -17,3 +17,12 @@ Third (Transform)
 
 Fourth (Load)
 1. the transformed data is loaded back to the gen2 data lake. This data is now ready for further analysis.
+
+DATA ANALYTICS (SYNAPSE)
+
+1. Data Analysis and exploration in Azure Synase. Visualized in Synapse, Power BI for dashboard.
+
+
+
+A COMPLETE OLYMIC DATA ENGINEERING AND ANALYTICS
+
